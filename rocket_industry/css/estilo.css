@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+.navbar{background-color: black}
+
+.no-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.titulo1{
+    font-family: 'Viga';
+    font-size: 2rem;
+}
+
+.boasvindas{
+    background-image: url(../images/jumbotron-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    /* height: 28.125rem; */
+    height: 45vh;
+}
+
+.img-fluid {
+    width: 100%;
+  }
+
+.carousel-indicators [data-bs-target]{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+}
+
+.carousel-caption{
+    bottom: 2rem;
+}
